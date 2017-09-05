@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0183B31DF69084006F579F /* StudentLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0183B21DF69084006F579F /* StudentLoginPage.swift */; };
+		FD0183B51DF69295006F579F /* StudentRegistrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0183B41DF69295006F579F /* StudentRegistrationPage.swift */; };
+		FD0183B71DF697B2006F579F /* OtherFuncTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0183B61DF697B2006F579F /* OtherFuncTableView.swift */; };
+		FD0183B91DF69DA6006F579F /* HeadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0183B81DF69DA6006F579F /* HeadingCell.swift */; };
+		FD0183BB1DF69DCF006F579F /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0183BA1DF69DCF006F579F /* ItemCell.swift */; };
+		FD0183BD1DF69F80006F579F /* DriverLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0183BC1DF69F80006F579F /* DriverLoginPage.swift */; };
+		FD05CB411DF67D2F00554D8C /* StudentTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD05CB401DF67D2F00554D8C /* StudentTabBarController.swift */; };
+		FD05CB431DF67ED600554D8C /* DriverTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD05CB421DF67ED600554D8C /* DriverTabBarController.swift */; };
+		FD1513C01DEE9E7E00EF8D65 /* sy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD1513BF1DEE9E7E00EF8D65 /* sy.jpg */; };
+		FD1513C21DEEA80E00EF8D65 /* DriverLoginPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1513C11DEEA80E00EF8D65 /* DriverLoginPageController.swift */; };
+		FD1513C41DEEB4CC00EF8D65 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1513C31DEEB4CC00EF8D65 /* InformationViewController.swift */; };
+		FD35CAD31DF53152000017BC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35CAD21DF53152000017BC /* MapViewController.swift */; };
+		FD35CAD51DF53BFB000017BC /* TimeSelectedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35CAD41DF53BFB000017BC /* TimeSelectedController.swift */; };
 		FD657C301DE7E89C00877B86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD657C2F1DE7E89C00877B86 /* AppDelegate.swift */; };
-		FD657C321DE7E89C00877B86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD657C311DE7E89C00877B86 /* ViewController.swift */; };
 		FD657C351DE7E89C00877B86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD657C331DE7E89C00877B86 /* Main.storyboard */; };
 		FD657C371DE7E89C00877B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD657C361DE7E89C00877B86 /* Assets.xcassets */; };
 		FD657C3A1DE7E89C00877B86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD657C381DE7E89C00877B86 /* LaunchScreen.storyboard */; };
 		FD657C451DE7E89D00877B86 /* ShuttleServiceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD657C441DE7E89D00877B86 /* ShuttleServiceAppTests.swift */; };
 		FD657C501DE7E89D00877B86 /* ShuttleServiceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD657C4F1DE7E89D00877B86 /* ShuttleServiceAppUITests.swift */; };
+		FD657C5E1DE7EAD700877B86 /* StudentLoginPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD657C5D1DE7EAD700877B86 /* StudentLoginPageController.swift */; };
+		FD657C621DE81FD100877B86 /* StudentRegistrationPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD657C611DE81FD100877B86 /* StudentRegistrationPageController.swift */; };
+		FD94DC3D1DEBFEF700C64C0E /* RegisterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94DC3C1DEBFEF700C64C0E /* RegisterItem.swift */; };
+		FD94DC411DEC0EB600C64C0E /* StartUpPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94DC401DEC0EB600C64C0E /* StartUpPageController.swift */; };
+		FD94DC471DEC1AB800C64C0E /* DriverPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94DC461DEC1AB800C64C0E /* DriverPageController.swift */; };
+		FDAEA8291DEA933D000295E7 /* OtherFuncTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEA8281DEA933D000295E7 /* OtherFuncTableViewController.swift */; };
+		FDAEA82B1DEA9975000295E7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAEA82A1DEA9975000295E7 /* MessageUI.framework */; };
+		FDB0B7071DF4DBB100BFF7BA /* RegisteredItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0B7061DF4DBB100BFF7BA /* RegisteredItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +54,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD0183B21DF69084006F579F /* StudentLoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentLoginPage.swift; sourceTree = "<group>"; };
+		FD0183B41DF69295006F579F /* StudentRegistrationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentRegistrationPage.swift; sourceTree = "<group>"; };
+		FD0183B61DF697B2006F579F /* OtherFuncTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherFuncTableView.swift; sourceTree = "<group>"; };
+		FD0183B81DF69DA6006F579F /* HeadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadingCell.swift; sourceTree = "<group>"; };
+		FD0183BA1DF69DCF006F579F /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		FD0183BC1DF69F80006F579F /* DriverLoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverLoginPage.swift; sourceTree = "<group>"; };
+		FD05CB401DF67D2F00554D8C /* StudentTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTabBarController.swift; sourceTree = "<group>"; };
+		FD05CB421DF67ED600554D8C /* DriverTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverTabBarController.swift; sourceTree = "<group>"; };
+		FD1513BF1DEE9E7E00EF8D65 /* sy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sy.jpg; sourceTree = SOURCE_ROOT; };
+		FD1513C11DEEA80E00EF8D65 /* DriverLoginPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverLoginPageController.swift; sourceTree = "<group>"; };
+		FD1513C31DEEB4CC00EF8D65 /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		FD35CAD21DF53152000017BC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FD35CAD41DF53BFB000017BC /* TimeSelectedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSelectedController.swift; sourceTree = "<group>"; };
 		FD657C2C1DE7E89C00877B86 /* ShuttleServiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuttleServiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD657C2F1DE7E89C00877B86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD657C311DE7E89C00877B86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD657C341DE7E89C00877B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD657C361DE7E89C00877B86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD657C391DE7E89C00877B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +79,14 @@
 		FD657C4B1DE7E89D00877B86 /* ShuttleServiceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuttleServiceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD657C4F1DE7E89D00877B86 /* ShuttleServiceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuttleServiceAppUITests.swift; sourceTree = "<group>"; };
 		FD657C511DE7E89D00877B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD657C5D1DE7EAD700877B86 /* StudentLoginPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentLoginPageController.swift; sourceTree = "<group>"; };
+		FD657C611DE81FD100877B86 /* StudentRegistrationPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentRegistrationPageController.swift; sourceTree = "<group>"; };
+		FD94DC3C1DEBFEF700C64C0E /* RegisterItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterItem.swift; path = ShuttleServiceApp/RegisterItem.swift; sourceTree = "<group>"; };
+		FD94DC401DEC0EB600C64C0E /* StartUpPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartUpPageController.swift; sourceTree = "<group>"; };
+		FD94DC461DEC1AB800C64C0E /* DriverPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverPageController.swift; sourceTree = "<group>"; };
+		FDAEA8281DEA933D000295E7 /* OtherFuncTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherFuncTableViewController.swift; sourceTree = "<group>"; };
+		FDAEA82A1DEA9975000295E7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FDB0B7061DF4DBB100BFF7BA /* RegisteredItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisteredItemStore.swift; path = ShuttleServiceApp/RegisteredItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDAEA82B1DEA9975000295E7 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +115,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD0183AF1DF68CD5006F579F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD94DC3C1DEBFEF700C64C0E /* RegisterItem.swift */,
+				FDB0B7061DF4DBB100BFF7BA /* RegisteredItemStore.swift */,
+				FD0183B21DF69084006F579F /* StudentLoginPage.swift */,
+				FD0183B41DF69295006F579F /* StudentRegistrationPage.swift */,
+				FD0183B61DF697B2006F579F /* OtherFuncTableView.swift */,
+				FD0183BC1DF69F80006F579F /* DriverLoginPage.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FD0183B01DF68CEB006F579F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD35CAD41DF53BFB000017BC /* TimeSelectedController.swift */,
+				FD35CAD21DF53152000017BC /* MapViewController.swift */,
+				FD657C5D1DE7EAD700877B86 /* StudentLoginPageController.swift */,
+				FD657C611DE81FD100877B86 /* StudentRegistrationPageController.swift */,
+				FDAEA8281DEA933D000295E7 /* OtherFuncTableViewController.swift */,
+				FD94DC401DEC0EB600C64C0E /* StartUpPageController.swift */,
+				FD94DC461DEC1AB800C64C0E /* DriverPageController.swift */,
+				FD1513C11DEEA80E00EF8D65 /* DriverLoginPageController.swift */,
+				FD1513C31DEEB4CC00EF8D65 /* InformationViewController.swift */,
+				FD05CB401DF67D2F00554D8C /* StudentTabBarController.swift */,
+				FD05CB421DF67ED600554D8C /* DriverTabBarController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FD0183B11DF68D1C006F579F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD657C331DE7E89C00877B86 /* Main.storyboard */,
+				FD657C381DE7E89C00877B86 /* LaunchScreen.storyboard */,
+				FD1513BF1DEE9E7E00EF8D65 /* sy.jpg */,
+				FD0183B81DF69DA6006F579F /* HeadingCell.swift */,
+				FD0183BA1DF69DCF006F579F /* ItemCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		FD657C231DE7E89C00877B86 = {
 			isa = PBXGroup;
 			children = (
+				FDAEA82A1DEA9975000295E7 /* MessageUI.framework */,
 				FD657C2E1DE7E89C00877B86 /* ShuttleServiceApp */,
 				FD657C431DE7E89D00877B86 /* ShuttleServiceAppTests */,
 				FD657C4E1DE7E89D00877B86 /* ShuttleServiceAppUITests */,
@@ -97,11 +183,11 @@
 		FD657C2E1DE7E89C00877B86 /* ShuttleServiceApp */ = {
 			isa = PBXGroup;
 			children = (
+				FD0183B11DF68D1C006F579F /* View */,
+				FD0183B01DF68CEB006F579F /* Controller */,
+				FD0183AF1DF68CD5006F579F /* Model */,
 				FD657C2F1DE7E89C00877B86 /* AppDelegate.swift */,
-				FD657C311DE7E89C00877B86 /* ViewController.swift */,
-				FD657C331DE7E89C00877B86 /* Main.storyboard */,
 				FD657C361DE7E89C00877B86 /* Assets.xcassets */,
-				FD657C381DE7E89C00877B86 /* LaunchScreen.storyboard */,
 				FD657C3B1DE7E89C00877B86 /* Info.plist */,
 			);
 			path = ShuttleServiceApp;
@@ -193,6 +279,7 @@
 				TargetAttributes = {
 					FD657C2B1DE7E89C00877B86 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9V34U4H3ZK;
 					};
 					FD657C3F1DE7E89D00877B86 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -230,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD657C3A1DE7E89C00877B86 /* LaunchScreen.storyboard in Resources */,
+				FD1513C01DEE9E7E00EF8D65 /* sy.jpg in Resources */,
 				FD657C371DE7E89C00877B86 /* Assets.xcassets in Resources */,
 				FD657C351DE7E89C00877B86 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +344,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD657C321DE7E89C00877B86 /* ViewController.swift in Sources */,
+				FD35CAD31DF53152000017BC /* MapViewController.swift in Sources */,
+				FDB0B7071DF4DBB100BFF7BA /* RegisteredItemStore.swift in Sources */,
+				FD0183B91DF69DA6006F579F /* HeadingCell.swift in Sources */,
+				FD657C5E1DE7EAD700877B86 /* StudentLoginPageController.swift in Sources */,
 				FD657C301DE7E89C00877B86 /* AppDelegate.swift in Sources */,
+				FD0183B31DF69084006F579F /* StudentLoginPage.swift in Sources */,
+				FD0183BB1DF69DCF006F579F /* ItemCell.swift in Sources */,
+				FD0183B71DF697B2006F579F /* OtherFuncTableView.swift in Sources */,
+				FD1513C21DEEA80E00EF8D65 /* DriverLoginPageController.swift in Sources */,
+				FDAEA8291DEA933D000295E7 /* OtherFuncTableViewController.swift in Sources */,
+				FD0183B51DF69295006F579F /* StudentRegistrationPage.swift in Sources */,
+				FD657C621DE81FD100877B86 /* StudentRegistrationPageController.swift in Sources */,
+				FD35CAD51DF53BFB000017BC /* TimeSelectedController.swift in Sources */,
+				FD94DC411DEC0EB600C64C0E /* StartUpPageController.swift in Sources */,
+				FD94DC471DEC1AB800C64C0E /* DriverPageController.swift in Sources */,
+				FD94DC3D1DEBFEF700C64C0E /* RegisterItem.swift in Sources */,
+				FD05CB431DF67ED600554D8C /* DriverTabBarController.swift in Sources */,
+				FD1513C41DEEB4CC00EF8D65 /* InformationViewController.swift in Sources */,
+				FD0183BD1DF69F80006F579F /* DriverLoginPage.swift in Sources */,
+				FD05CB411DF67D2F00554D8C /* StudentTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +507,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ShuttleServiceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = syracuse.ShuttleServiceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +521,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ShuttleServiceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = syracuse.ShuttleServiceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +596,7 @@
 				FD657C561DE7E89D00877B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD657C571DE7E89D00877B86 /* Build configuration list for PBXNativeTarget "ShuttleServiceAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +605,7 @@
 				FD657C591DE7E89D00877B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD657C5A1DE7E89D00877B86 /* Build configuration list for PBXNativeTarget "ShuttleServiceAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +614,7 @@
 				FD657C5C1DE7E89D00877B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
